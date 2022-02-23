@@ -1,0 +1,50 @@
+body{
+    background-image: url("../img/windows-xp.jpg");
+    margin: 0;
+}
+.dossier{
+    width: 5%;
+    margin-left: 48%;
+    margin-top: 15%;
+}
+.titre{
+    font-size: medium;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+}
+.logo_windows{
+    height: 50px;
+}
+.sous-menu{
+    width: 100%;
+}
+.ligne{
+    background-color: blue;
+    color: white;
+}
+.conteneur-menu{
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 2%;
+}
+
+.dossier:hover{
+    opacity: 90%;
+}
+
+a:hover{
+    opacity: 90%;
+}
