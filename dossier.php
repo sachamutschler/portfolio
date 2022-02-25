@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="resources/css/style.css">
 </head>
 <body>
-    <div id="dossier_link">
-        <a href="dossier.php"><img src="resources/img/dossier.png" alt="image de dossier" srcset="" id="dossier" class="dossier"> <!-- image par freepik --></a>
-        <a href="dossier.php"><h1 id="titre" class="titre">Portfolio <br>Sacha Mutschler</h1></a>
+    <div class="fichier" id="fichier">
+        
     </div>
     <div class="conteneur-menu">
         <nav id="menu" class="menu">
