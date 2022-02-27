@@ -40,6 +40,54 @@ a{
     position: fixed;
     margin-bottom: 35px;
 }
+.fichier{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    height: 600px;
+}
+.fichier_titre{
+    color: aliceblue;
+}
+.navbar_dossier{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 5%;
+}
+.fichier_etc{
+    display: flex;
+    width: 20%;
+}
+.diminuer{
+    width: 33%;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+.agrandir{
+    width: 33%;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+.fermer{
+    width: 33%;
+    background-color: red!important;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
 
 
 .logo_windows:hover{

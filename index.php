@@ -9,8 +9,8 @@
 </head>
 <body>
     <div id="dossier_link">
-        <a href=""><img src="resources/img/dossier.png" alt="image de dossier" srcset="" id="dossier" class="dossier"> <!-- image par freepik --></a>
-        <a href=""><h1 id="titre" class="titre">Portfolio Sacha Mutschler</h1></a>
+        <a href="dossier.php"><img src="resources/img/dossier.png" alt="image de dossier" srcset="" id="dossier" class="dossier"> <!-- image par freepik --></a>
+        <a href="dossier.php"><h1 id="titre" class="titre">Portfolio <br>Sacha Mutschler</h1></a>
     </div>
     <div class="conteneur-menu">
         <nav id="menu" class="menu">
@@ -23,7 +23,7 @@
         </nav>
     </div>
     <div id="navbar">
-        <img src="resources/img/logo-windows-noir.png" alt="logo windows noir" srcset="" class="logo_windows">
+        <img src="resources/img/logoxp.jpg" alt="logo windows noir" srcset="" class="logo_windows">
     </div>
 </body>
 </html>

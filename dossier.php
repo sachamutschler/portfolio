@@ -9,7 +9,14 @@
 </head>
 <body>
     <div class="fichier" id="fichier">
-        
+        <div class="navbar_dossier">
+            <h2 class="fichier_titre">Dossier Portfolio</h2>
+            <div class="fichier_etc">
+                <a href="" class="diminuer"><div><p>-</p></div></a>
+                <a href="" class="agrandir"><div><p>[ ]</p></div></a>
+                <a href="" class="fermer"><div><p>X</p></div></a>
+            </div>
+        </div>
     </div>
     <div class="conteneur-menu">
         <nav id="menu" class="menu">
@@ -21,6 +28,7 @@
             </ul>
         </nav>
     </div>
+    
     <div id="navbar">
         <img src="resources/img/logoxp.jpg" alt="logo windows noir" srcset="" class="logo_windows">
     </div>
