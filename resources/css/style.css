@@ -20,7 +20,7 @@ a{
 #navbar{
     width: 100%;
     height: 50px;
-    background-color: rgb(0, 89, 255);
+    background-color: #235CDB;
     bottom: 0;
     position: fixed;
     overflow: hidden;
@@ -45,24 +45,31 @@ a{
     width: 50%;
     margin-left: 25%;
     height: 600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 4px solid #005CF5;
+    margin-top: 3%;
 }
 .fichier_titre{
     color: aliceblue;
+    margin: auto;
 }
 .navbar_dossier{
     display: flex;
-    background-color: blue;
+    background-color: #005CF5;
     justify-content: space-between;
     height: 50px;
-    margin-top: 5%;
+}
+.div_fichier_titre{
+    margin-top: 10px;
 }
 .fichier_etc{
     display: flex;
-    width: 20%;
+    width: 25%;
 }
 .diminuer{
-    width: 33%;
-    border: 1px solid royalblue;
+    width: 30%;
+    border: 1px solid aliceblue;
     border-radius: 5px;
     text-align: center;
     margin-top: 5px;
@@ -70,23 +77,30 @@ a{
     color: white;
 }
 .agrandir{
-    width: 33%;
-    border: 1px solid royalblue;
+    width: 30%;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.fermer{
+    width: 30%;
+    background-color: red!important;
+    border: 1px solid aliceblue;
     border-radius: 5px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
 }
-.fermer{
-    width: 33%;
-    background-color: red!important;
-    border: 1px solid royalblue;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.dossier_navbar{
+    width: 10%;
     color: white;
+    background-color: blue;
 }
 
 
