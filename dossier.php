@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Sacha Mutschler</title>
-    <link rel="stylesheet" href="resources/css/style.css">
-</head>
+<?php include('head.php'); ?>
 <body>
-    <div class="fichier" id="fichier">
+    <div class="fichier window" id="fichier">
         <div class="navbar_dossier">
-            <div class="div_fichier_titre"><h2 class="fichier_titre">Dossier Portfolio</h2></div>
-            <div class="fichier_etc">
-                <a href="index.php" class="diminuer"><div><p>-</p></div></a>
-                <a href="" class="agrandir"><div><p>[ ]</p></div></a>
-                <a href="index.php" class="fermer"><div><p>X</p></div></a>
+            <div class="title-bar">
+                <div class="title-bar-text">A Title Bar</div>
+                    <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
             </div>
         </div>
+        <div class="window-body">
+            <p>There's so much room for activities!</p>
+        </div>
     </div>
+    
     <div class="conteneur-menu">
         <nav id="menu" class="menu">
             <ul class="sous-menu">
@@ -30,10 +28,21 @@
     </div>
     
     <div id="navbar">
-        <img src="resources/img/logoxp.jpg" alt="logo windows noir" srcset="" class="logo_windows">
-        <a href="index.php"><div>
-            <p>Dossier Portfolio</p>
-        </div></a>
+        <div class="logo-vert">
+            <img src="resources/img/xp-logo.PNG" alt="logo windows noir" srcset="" class="logo_windows">
+            <p class="start">Démarrer</p>
+        </div>
+        <div class="blur-right-bar">
+                <ul class="blur-right-bar-applications">
+                    <li><img src="resources/img/msn.png" alt="internet explorer icon"></li>
+                    <li><img src="resources/img/my_computer.png" alt="internet explorer icon"></li>
+                    <li><img src="resources/img/my_network_places.png" alt="internet explorer icon"></li>
+                </ul>
+                <span class="time">
+                    14:34
+                </span>
+            </div>
     </div>
+    <script src="resources/js/main.js"></script>
 </body>
 </html>
