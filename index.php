@@ -20,20 +20,15 @@
         <a href="dossier.php"><img src="resources/img/dossier.png" alt="image de dossier" srcset="" id="dossier" class="dossier"> <!-- image par freepik --></a>
         <a href="dossier.php"><h1 id="titre" class="titre">Portfolio <br>Sacha Mutschler</h1></a>
     </div>
-    <div class="conteneur-menu">
-        <nav id="menu" class="menu">
-            <ul class="sous-menu">
-                <li class="ligne">Sacha Mutschler</li>
-                <li class="ligne">Compétences</li>
-                <li class="ligne">projets</li>
-                <li class="ligne">Contact</li>
-            </ul>
-        </nav>
-    </div>
+    
     <div id="navbar">
-        <div class="logo-vert">
-            <img src="resources/img/xp-logo.PNG" alt="logo windows noir" srcset="" class="logo_windows">
-            <p class="start">Démarrer</p>
+        <?php 
+            require('menu.php');
+        ?>
+        <div class="button-start-menu logo-vert" onclick="afficher_navbar()">
+        
+            <img src="resources/img/xp-logo.PNG" alt="logo windows noir" srcset="" onclick="afficher_navbar()" class="logo_windows" >
+            <p class="start" onclick="afficher_navbar()">Démarrer</p>
         </div>
         <div class="blur-right-bar">
                 <ul class="blur-right-bar-applications">

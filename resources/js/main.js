@@ -105,3 +105,14 @@
 
     timeEl.textContent = time;
 })()
+
+ navbar = document.getElementById('start-menu');
+ bouton = document.getElementById('logo-vert');
+    function afficher_navbar() {
+        if(!navbar.classList.contains('active')) {
+            navbar.classList.add('active');
+        }
+        else {
+            navbar.classList.remove('active');
+        }
+    } 

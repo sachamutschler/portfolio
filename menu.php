@@ -1,5 +1,206 @@
-<link rel="stylesheet" href="resources/css/menu.css">
-<div class="container">
-    
-   
-</div>
+
+    <div class="start-menu">
+        <div class="start-menu-header">
+            <span class="user-pic">
+                <img src="resources/img/msn.png" alt="">
+            </span>
+                <p class="user-name">Matheus Silva</p>
+        </div>
+        <div class="start-menu-applications">
+            <div class="start-menu-applications-box menu-applications-left">
+                <ul class="applications-devider apps">
+                    <li>
+                        <img class="menu-icon" src="resources/img/exploraricone.png">
+                            <div>
+                                <span class="first">Internet</span>
+                                <span class="second">Internet Explorer</span>
+                            </div>
+                    </li>
+                    <li>
+                        <img class="menu-icon" src="resources/img/mozila-icon.png">
+                        <div>
+                            <span class="first">Internet</span>
+                            <span class="second">Mozilla Thunderbird</span>
+                        </div>
+                    </li>
+                </ul>
+                            <ul class="apps">
+                                <li>
+                                    <img class="menu-icon" src="resources/img/windows_media_player.png">
+                                    <div>
+                                        <span class="first">Windows Media Player</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/minesweeper.png">
+                                    <div>
+                                        <span class="first">Minesweeper</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/tetris.png">
+                                    <div>
+                                        <span class="first">Tetris</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/commandPrompt.png">
+                                    <div>
+                                        <span class="first">Command Prompt</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/totalcommander.png">
+                                    <div>
+                                        <span class="first">Norton Commander</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/winamp.png">
+                                    <div>
+                                        <span class="first">Winamp</span>
+                                    </div>
+                                </li>
+                                <li class="all-programs-wrapper">
+                                    <a href="#">All Programs</a>
+                                    <img src="resources/img/programs_arrow.png" alt="">
+                                    <div class="all-programs-box">
+                                        <ul class="w-update">
+                                            <li>
+                                                <img src="resources/img/windows_update.png" alt="">
+                                                Windows Update
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <img src="resources/img/programs.png" alt="">
+                                                Accessories
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/programs.png" alt="">
+                                                Games
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/programs.png" alt="">
+                                                Startup
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/exploraricone.png" alt="">
+                                                Internet Explorer
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/msn16.png" alt="">
+                                                MSN Explorer
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/msn.png" alt="">
+                                                Windows Messenger
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/oe16.png" alt="">
+                                                Outlook Express
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/ra16.png" alt="">
+                                                Outlook Express
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/windows_media_player.png" alt="">
+                                                Outlook Express
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="start-menu-applications-box menu-applications-right">
+                            <ul class="applications-devider apps">
+                                <li class="my-documents-wrapper">
+                                    <img class="menu-icon" src="resources/img/myrecent.png">
+                                    <div>
+                                        <span class="first">My Recent Documents</span>
+                                    </div>
+                                    <div class="my-documents-box">
+                                        <ul>
+                                            <li>
+                                                <img src="resources/img/textdoc.png">
+                                                document.txt
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/mywebsite.png" alt="">
+                                                site
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/textdoc.png">
+                                                notes.txt
+                                            </li>
+                                            <li>
+                                                <img src="resources/img/mywebsite.png" alt="">
+                                                internet
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/mymusic.png">
+                                    <div>
+                                        <span class="first">My Music</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/my_computer.png">
+                                    <div>
+                                        <span class="first">My Computer</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/my_network_places.png">
+                                    <div>
+                                        <span class="first">My Network Places</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="applications-devider apps">
+                                <li>
+                                    <img class="menu-icon" src="resources/img/controlpanel.png">
+                                    <div>
+                                        <span class="first">Control Panel</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/printers.png">
+                                    <div>
+                                        <span class="first">Printers and Faxes</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="apps">
+                                <li>
+                                    <img class="menu-icon" src="resources/img/helpsupport.png">
+                                    <div>
+                                        <span class="first">Help and Support</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/search.png">
+                                    <div>
+                                        <span class="first">Search</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="menu-icon" src="resources/img/run.png">
+                                    <div>
+                                        <span class="first">Run</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="start-menu-bottom-bar">
+                        <ul class="pc-power">
+                            <li><img src="resources/img/log-off-icon-8379-Windows.ico" alt=""> Log Off</li>
+                            <li><img src="resources/img/Shutdown_Box_Red.png" alt=""> Shut Down</li>
+                        </ul>
+                    </div>
+                </div>

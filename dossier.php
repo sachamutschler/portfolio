@@ -16,17 +16,6 @@
         </div>
     </div>
     
-    <div class="conteneur-menu">
-        <nav id="menu" class="menu">
-            <ul class="sous-menu">
-                <li class="ligne">Sacha Mutschler</li>
-                <li class="ligne">Compétences</li>
-                <li class="ligne">projets</li>
-                <li class="ligne">Contact</li>
-            </ul>
-        </nav>
-    </div>
-    
     <div id="navbar">
         <div class="logo-vert">
             <img src="resources/img/xp-logo.PNG" alt="logo windows noir" srcset="" class="logo_windows">

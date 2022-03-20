@@ -1,8 +1,9 @@
 body{
     background-image: url("../img/windows-xp.jpg");
     margin: 0;
-   /*  background-size: cover;
-    background-position: center; */
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /*INITIAL LOADER STYLES*/
@@ -123,15 +124,19 @@ body{
 a{
     text-decoration: none;
 }
+
+/* NAVBAR  */
+
 #navbar{
     width: 100%;
     height: 40px;
     background-image: linear-gradient(180deg, #63a9f5 0%, #2357d4 15%, rgba(16, 53, 142, 1) 90%);
     bottom: 0;
     position: fixed;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    z-index: 9999 !important;
 }
 .logo_windows{
     height: 40px;
@@ -148,6 +153,23 @@ a{
     position: fixed;
     margin-bottom: 35px;
 }
+.logo-vert{
+    width: 165px;
+    background-image: linear-gradient(180deg, #85bb84 0%, #459b43 10%, #419444 30%, #3bac3a 70%, #459b43 90%);
+
+    display: flex;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 40px;
+}
+.start{
+    color: white;
+    font-size: large;
+    margin: auto;
+}
+
+/* DOSSIER */
+
 .fichier{
     background-color: white;
     width: 50%;
@@ -178,20 +200,6 @@ a{
     width: 10%;
     color: white;
     background-color: blue;
-}
-.logo-vert{
-    width: 165px;
-    background-image: linear-gradient(180deg, #85bb84 0%, #459b43 10%, #419444 30%, #3bac3a 70%, #459b43 90%);
-
-    display: flex;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 40px;
-}
-.start{
-    color: white;
-    font-size: large;
-    margin: auto;
 }
 
 /* Navbar bleu clair */
