@@ -1,10 +1,10 @@
 
-    <div class="start-menu">
+    <div class="start-menu" id="start-menu">
         <div class="start-menu-header">
             <span class="user-pic">
                 <img src="resources/img/msn.png" alt="">
             </span>
-                <p class="user-name">Matheus Silva</p>
+                <p class="user-name">Mutschler Sacha</p>
         </div>
         <div class="start-menu-applications">
             <div class="start-menu-applications-box menu-applications-left">

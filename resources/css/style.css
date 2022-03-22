@@ -125,6 +125,7 @@ a{
     text-decoration: none;
 }
 
+
 /* NAVBAR  */
 
 #navbar{
@@ -132,14 +133,14 @@ a{
     height: 40px;
     background-image: linear-gradient(180deg, #63a9f5 0%, #2357d4 15%, rgba(16, 53, 142, 1) 90%);
     bottom: 0;
-    position: fixed;
     display: flex;
     justify-content: space-between;
     position: absolute;
     z-index: 9999 !important;
 }
-.logo_windows{
-    height: 40px;
+.logo-windows{
+    width: 40px;
+    margin-right: 10px;
 }
 .sous-menu{
     width: 100%;
@@ -154,13 +155,20 @@ a{
     margin-bottom: 35px;
 }
 .logo-vert{
-    width: 165px;
+    width: 155px;
     background-image: linear-gradient(180deg, #85bb84 0%, #459b43 10%, #419444 30%, #3bac3a 70%, #459b43 90%);
 
     display: flex;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px !important;
+    border-top-right-radius: 15px !important;
     height: 40px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 25px;
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0px;
 }
 .start{
     color: white;
@@ -252,13 +260,20 @@ a{
 .logo-vert:hover{
     opacity: 90%;
     cursor: pointer;
-
+    box-shadow: none !important;
 }
 .dossier:hover{
     opacity: 90%;
     border: 1px solid gray;
     border-radius: 5px;
 }
+button:focus{
+    outline: none !important;
+    outline-offset: 0 !important;
+}
 a:hover{
     opacity: 90%;
+}
+a:focus{
+    outline: none !important;
 }

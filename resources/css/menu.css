@@ -34,9 +34,6 @@
     background: white;
     display: flex;
 }
-.active {
-    display: block;
-}
 
 
 .start-menu-applications-box {
@@ -235,4 +232,11 @@
 
 .my-documents-box ul li img {
     width: 17px;
+}
+
+
+
+
+.active {
+    display: block !important;
 }

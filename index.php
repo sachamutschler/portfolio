@@ -16,20 +16,27 @@
             </div>
         </div>
     </div>
-    <div id="dossier_link">
-        <a href="dossier.php"><img src="resources/img/dossier.png" alt="image de dossier" srcset="" id="dossier" class="dossier"> <!-- image par freepik --></a>
-        <a href="dossier.php"><h1 id="titre" class="titre">Portfolio <br>Sacha Mutschler</h1></a>
-    </div>
+    <a href="dossier.php">
+        <div id="dossier_link">
+            <a href="dossier.php"><img src="resources/img/dossier.png" alt="image de dossier" id="dossier" class="dossier"> <!-- image par freepik --></a>
+            <a href="dossier.php"><h1 id="titre" class="titre">Portfolio <br>Sacha Mutschler</h1></a>
+        </div>
+    </a>
     
     <div id="navbar">
         <?php 
             require('menu.php');
         ?>
-        <div class="button-start-menu logo-vert" onclick="afficher_navbar()">
+        <!-- <button class="button-start-menu logo-vert" id="logo-vert">
         
-            <img src="resources/img/xp-logo.PNG" alt="logo windows noir" srcset="" onclick="afficher_navbar()" class="logo_windows" >
-            <p class="start" onclick="afficher_navbar()">Démarrer</p>
-        </div>
+            <img src="resources/img/xp-logo.PNG" alt="" class="logo_windows">
+            <p class="start">Démarrer</p>
+           démarrer
+        </button> -->
+        <button class="logo-vert button-start-menu">
+                <img src="resources/img/Windows_logo.png" alt="" class="logo-windows">
+                start
+            </button>
         <div class="blur-right-bar">
                 <ul class="blur-right-bar-applications">
                     <li><img src="resources/img/msn.png" alt="internet explorer icon"></li>
@@ -42,5 +49,6 @@
             </div>
     </div>
     <script src="resources/js/main.js"></script>
+    <script src="resources/js/navbar.js"> </script>
 </body>
 </html>
