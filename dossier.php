@@ -7,20 +7,23 @@
             <div class="title-bar">
                 <div class="title-bar-text">A Title Bar</div>
                     <div class="title-bar-controls">
-                    <button aria-label="Close"></button>
+                    <button aria-label="Close" onclick="window.location.href='index.php'"></button>
                 </div>
             </div>
         </div>
         <div class="window-body">
             <p>There's so much room for activities!</p>
         </div>
-    </div>
+    </div> 
     
     <div id="navbar">
-        <div class="logo-vert">
-            <img src="resources/img/xp-logo.PNG" alt="logo windows noir" srcset="" class="logo_windows">
-            <p class="start">Démarrer</p>
-        </div>
+        <?php 
+            require('menu.php');
+        ?>
+        <button class="logo-vert button-start-menu">
+            <img src="resources/img/Windows_logo.png" alt="" class="logo-windows">
+                start
+        </button>
         <div class="blur-right-bar">
                 <ul class="blur-right-bar-applications">
                     <li><img src="resources/img/msn.png" alt="internet explorer icon"></li>

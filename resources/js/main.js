@@ -2,7 +2,6 @@
     const startMenu = document.querySelector(".start-menu");
     const loader = document.querySelector(".loader-wrapp");
     const startMenuBtn = document.querySelector(".logo-vert");
-    const desktop = document.querySelector('.desktop');
     const date = new Date();
     const timeEl = document.querySelector(".time");
     const time = date.toLocaleTimeString('pt-BR', {
@@ -11,75 +10,6 @@
     });
 
 
-    /* var deskItem = document.querySelectorAll(".desk-item");
-
-
-    deskItem.forEach(item => {
-
-        var innerItemWidth = item.offsetWidth;
-        var innerItemHeight = item.offsetHeight;
-
-        var l = desktop.offsetLeft + 15;
-        var t = desktop.offsetTop + 15;
-        var h = desktop.offsetHeight;
-        var w = desktop.offsetWidth;
-
-        var maxx = l + w - innerItemWidth;
-        var maxy = l + h - innerItemHeight;
-        var movable = false;
-
-
-
-        item.onmousedown = function (event) { // (1) start the process
-            movable = true;
-           
-            item.style.position = 'absolute';
-            item.style.zIndex = 1000;
-            
-            desktop.append(item);
-            
-
-            moveAt(event.pageX, event.pageY);
-
-          
-            function moveAt(pageX, pageY) {
-                if (movable) {
-                    if (pageY <= maxy && pageY >= t) {
-                        item.style.top = pageY - 15 + 'px';
-                    }
-
-                    if (pageX <= maxx && pageX >= l) {
-                        item.style.left = pageX - 15 + 'px';
-                    }
-                }
-
-
-            }
-
-            function onMouseMove(event) {
-                moveAt(event.pageX, event.pageY);
-            }
-
-            
-            document.addEventListener('mousemove', onMouseMove);
-
-            
-            item.onmouseup = function () {
-
-                document.removeEventListener('mousemove', onMouseMove);
-                item.onmouseup = null;
-                movable = false;
-                console.log(movable)
-
-            };
-
-            item.ondragstart = function () {
-                return false;
-            };
-            
-
-        };
-    }) */
  
 
 
