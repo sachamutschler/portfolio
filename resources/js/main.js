@@ -11,7 +11,7 @@
     });
 
 
-    var deskItem = document.querySelectorAll(".desk-item");
+    /* var deskItem = document.querySelectorAll(".desk-item");
 
 
     deskItem.forEach(item => {
@@ -79,9 +79,8 @@
             
 
         };
-    })
-    
-
+    }) */
+ 
 
 
     function hideLoader() {
@@ -95,13 +94,14 @@
     setTimeout(hideLoader, 3000);
 
     startMenuBtn.addEventListener("click", toggleMenu);
-    console.log(startMenuBtn);
     document.addEventListener("click", function (e) {
+        
         e.preventDefault();
         let el = e.target;
         if (el.parent !== startMenu && el !== startMenuBtn && !startMenu.contains(e.target)) {
             startMenu.classList.remove('active');
         }
+        
     })
 
     timeEl.textContent = time;

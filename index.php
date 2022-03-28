@@ -16,12 +16,10 @@
             </div>
         </div>
     </div>
-    <a href="dossier.php">
         <div id="dossier_link">
-            <a href="dossier.php"><img src="resources/img/dossier.png" alt="image de dossier" id="dossier" class="dossier"> <!-- image par freepik --></a>
-            <a href="dossier.php"><h1 id="titre" class="titre">Portfolio <br>Sacha Mutschler</h1></a>
+            <a href="dossier.php"><img src="resources/img/dossier.png" alt="image" class="dossier" onclick="window.location.href='dossier.php'"><!-- image par freepik --></a>
+            <a href="dossier.php"><h1 id="titre" class="titre" onclick="window.location.href='dossier.php' ">Portfolio <br>Sacha Mutschler</h1></a>
         </div>
-    </a>
     
     <div id="navbar">
         <?php 
