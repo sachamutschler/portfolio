@@ -5,15 +5,23 @@
     <div class="fichier window" id="fichier">
         <div class="navbar_dossier">
             <div class="title-bar">
-                <div class="title-bar-text">A Title Bar</div>
+                <div class="title-bar-text">Portfolio Sacha Mutschler</div>
                     <div class="title-bar-controls">
-                    <button aria-label="Close" onclick="window.location.href='index.php'"></button>
+                    <button aria-label="Close" onclick="window.location.href='index-copy.php'"></button>
                 </div>
             </div>
         </div>
-        <div class="window-body">
-            <p>There's so much room for activities!</p>
-        </div>
+        <!-- <div class="window-body">
+            <div class="">
+                <ul class="navbar-dossier">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div> -->
+        <iframe src="http://portfolio.horus-web.fr/" frameborder="100"></iframe>
     </div> 
     
     <div id="navbar">

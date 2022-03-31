@@ -191,9 +191,6 @@ a{
     color: aliceblue;
     margin: auto;
 }
-.navbar_dossier{
-    display: flex;
-}
 .div_fichier_titre{
     margin-top: 10px;
 }
@@ -201,13 +198,29 @@ a{
     display: flex;
     width: 25%;
 }
-.title-bar{
-    width: 100%;
-}
+
 .dossier_navbar{
     width: 10%;
     color: white;
     background-color: blue;
+}
+/*NavBar Dossier */
+
+.navbar-dossier{
+    display: flex;
+    list-style-type: none;
+    font-size: medium;
+
+}
+li a {
+    color: black;
+
+}
+
+iframe{
+    width: 97%;
+    height: 94%;
+    margin-left: 1%;
 }
 
 /* Navbar bleu clair */
@@ -274,6 +287,6 @@ button:focus{
 a:hover{
     opacity: 90%;
 }
-/* a:focus{
+a:focus{
     outline: none !important;
-} */
+}
