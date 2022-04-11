@@ -176,10 +176,10 @@
                                 </li>
                             </ul>
                             <ul class="apps">
-                                <li>
+                                <li onclick="window.location.href='rgpd.php'">
                                     <img class="menu-icon" src="resources/img/helpsupport.png">
                                     <div>
-                                        <span class="first">Help and Support</span>
+                                        <span class="first">RGPD and Legals</span>
                                     </div>
                                 </li>
                                 <li>
