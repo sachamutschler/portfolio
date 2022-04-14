@@ -11,16 +11,16 @@
                 <ul class="applications-devider apps">
                     <li>
                         <img class="menu-icon" src="resources/img/exploraricone.png">
-                            <div>
+                            <div onclick="window.location.href='ie.php'">
                                 <span class="first">Internet</span>
                                 <span class="second">Internet Explorer</span>
                             </div>
                     </li>
                     <li>
                         <img class="menu-icon" src="resources/img/mozila-icon.png">
-                        <div>
-                            <span class="first">Internet</span>
-                            <span class="second">Mozilla Thunderbird</span>
+                        <div onclick="window.location.href='mozilla.php'">
+                            <span class="first" >Internet</span>
+                            <span class="second">Mozilla Firefox</span>
                         </div>
                     </li>
                 </ul>
