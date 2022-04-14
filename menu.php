@@ -43,7 +43,7 @@
                                         <span class="first">Tetris</span>
                                     </div>
                                 </li>
-                                <li>
+                                <li onclick="window.location.href='cmd.php'">
                                     <img class="menu-icon" src="resources/img/commandPrompt.png">
                                     <div>
                                         <span class="first">Command Prompt</span>
@@ -182,10 +182,10 @@
                                         <span class="first">RGPD and Legals</span>
                                     </div>
                                 </li>
-                                <li>
+                                <li onclick="window.location.href='file-contact.php'">
                                     <img class="menu-icon" src="resources/img/search.png">
                                     <div>
-                                        <span class="first">Search</span>
+                                        <span class="first">Contact</span>
                                     </div>
                                 </li>
                                 <li>

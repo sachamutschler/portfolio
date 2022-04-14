@@ -5,7 +5,7 @@
     <div class="fichier window" id="fichier">
         <div class="navbar_dossier">
             <div class="title-bar">
-                <div class="title-bar-text">Portfolio Sacha Mutschler</div>
+                <div class="title-bar-text">Mozilla Firefox</div>
                     <div class="title-bar-controls">
                     <button aria-label="Close" onclick="window.location.href='index-copy.php'"></button>
                 </div>
@@ -21,7 +21,7 @@
                 </ul>
             </div>
         </div> -->
-        <iframe src="https://www.google.fr/" frameborder="100"></iframe>
+        <iframe src="https://www.google.com/search?igu=1" frameborder="100"></iframe>
     </div> 
     
     <div id="navbar">

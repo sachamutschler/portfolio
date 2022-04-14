@@ -6,4 +6,5 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/xp.css">
     <link rel="stylesheet" href="resources/css/menu.css">
+    <link rel="stylesheet" href="resources/css/contact.css">
 </head>

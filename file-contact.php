@@ -5,14 +5,15 @@
     <div class="fichier window" id="fichier">
         <div class="navbar_dossier">
             <div class="title-bar">
-                <div class="title-bar-text">Internet Explorer</div>
+                <div class="title-bar-text">Contact</div>
                     <div class="title-bar-controls">
                     <button aria-label="Close" onclick="window.location.href='index-copy.php'"></button>
                 </div>
             </div>
         </div>
-        
-        <iframe src="https://www.bing.com/" frameborder="100"></iframe>
+        <?php
+            require ('contact.php');
+        ?>
     </div> 
     
     <div id="navbar">

@@ -261,6 +261,15 @@ iframe{
     font-weight: bold;
 }
 
+/* CMD */
+
+.cmd{
+    height: 96%;
+}
+.cmd-core{
+    height: 95%;
+}
+
 /* HOVER */
 .blur-right-bar-applications li:hover {
     list-style-type: none;
@@ -289,4 +298,13 @@ a:hover{
 }
 a:focus{
     outline: none !important;
+}
+body::-webkit-scrollbar-thumb {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #c8d6fb;
+    background-size: 7px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    box-shadow: inset -3px 0 #bad1fc, inset 1px 1px #b7caf5;
 }
