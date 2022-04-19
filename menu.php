@@ -31,7 +31,7 @@
                                         <span class="first">Windows Media Player</span>
                                     </div>
                                 </li>
-                                <li>
+                                <li onclick="window.location.href='minesweeper.php'">
                                     <img class="menu-icon" src="resources/img/minesweeper.png">
                                     <div>
                                         <span class="first">Minesweeper</span>
@@ -154,18 +154,18 @@
                                         <span class="first">My Computer</span>
                                     </div>
                                 </li>
-                                <li>
+                                <li onclick="window.location.href='bts.php'">
                                     <img class="menu-icon" src="resources/img/my_network_places.png">
                                     <div>
-                                        <span class="first">My Network Places</span>
+                                        <span class="first">BTS SIO</span>
                                     </div>
                                 </li>
                             </ul>
                             <ul class="applications-devider apps">
-                                <li>
+                                <li onclick="window.location.href='cv.php'">
                                     <img class="menu-icon" src="resources/img/controlpanel.png">
                                     <div>
-                                        <span class="first">Control Panel</span>
+                                        <span class="first">Mon CV</span>
                                     </div>
                                 </li>
                                 <li>
