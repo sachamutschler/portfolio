@@ -308,3 +308,11 @@ body::-webkit-scrollbar-thumb {
     border-radius: 2px;
     box-shadow: inset -3px 0 #bad1fc, inset 1px 1px #b7caf5;
 }
+
+@media screen and (max-width: 750px) {
+    
+    .fichier{
+        width: 100%;
+        margin-left: 0;
+    }
+}

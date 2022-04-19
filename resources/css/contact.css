@@ -80,4 +80,7 @@
     .btn{
         width: 65px;
     }
+    #titre{
+        font-size: small;
+    }
 }

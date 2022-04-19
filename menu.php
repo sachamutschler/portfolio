@@ -37,7 +37,7 @@
                                         <span class="first">Minesweeper</span>
                                     </div>
                                 </li>
-                                <li>
+                                <li onclick="window.location.href='tetris.php'">
                                     <img class="menu-icon" src="resources/img/tetris.png">
                                     <div>
                                         <span class="first">Tetris</span>

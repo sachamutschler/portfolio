@@ -22,7 +22,7 @@
         </div>
 
         <div class="cont_btn">
-            <button type="submit" name="button" class="btn" id="btn">Envoyer</button>
+            <button type="submit" name="button" class="btn contact-btn" id="btn">Envoyer</button>
 
         </div>
         
@@ -31,6 +31,7 @@
     
 </form>
 </div>
+
 <?php
 
 
@@ -39,8 +40,11 @@ if(isset($_POST['button'])) {
     $message = $_POST['description'];
     $mail = $_POST['email'];
     $headers = 'FROM: '. $mail;
-    mail('contactdendo@gmail.com', $objet, $message, $headers);
+    mail('contact@sacha-mutschler.com', $objet, $message, $headers);
+    echo'Le mail a été envoyé avec succès.';
+    var_dump($_POST['email']);
 }
 elseif(isset($_POST['button'])){
-    echo('Une erreur est survenue');
+    echo'Une erreur est survenue';
 }
+?>

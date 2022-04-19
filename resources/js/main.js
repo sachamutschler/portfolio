@@ -36,6 +36,8 @@
 
     timeEl.textContent = time;
     
-    
 
 })()
+const btnContact = document.getElementById("contact-btn").disabled;
+
+btnContact.disabled = false;
