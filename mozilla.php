@@ -34,7 +34,7 @@
         </button>
         <div class="blur-right-bar">
                 <ul class="blur-right-bar-applications">
-                    <li><img src="resources/img/msn.png" alt="internet explorer icon"></li>
+                    <li onclick="window.location.href='error.php'"><img src="resources/img/msn.png" alt="internet explorer icon"></li>
                     <li><img src="resources/img/my_computer.png" alt="internet explorer icon"></li>
                     <li><img src="resources/img/my_network_places.png" alt="internet explorer icon"></li>
                 </ul>

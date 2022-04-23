@@ -5,7 +5,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-
+html{
+    height: 100%;
+}
 /*INITIAL LOADER STYLES*/
 .loader-container {
     position: absolute;
@@ -111,18 +113,21 @@ body{
 
 .dossier{
     width: 50px;
-    margin-left: 48%;
-    margin-top: 15%;
 }
 .titre{
     font-size: medium;
-    text-align: center;
     color: white;
     text-shadow: 1px 1px black;
 
 }
 a{
     text-decoration: none;
+}
+#dossier_link{
+    text-align: center;
+    margin-top: 15%;
+    width: fit-content;
+    margin-left: 50%;
 }
 
 
@@ -210,18 +215,128 @@ a{
     display: flex;
     list-style-type: none;
     font-size: medium;
-
+    width: 85%;
+    height: 65%;
+    justify-content: flex-start;
+    border-right: gainsboro solid;
+    margin-left: -30px;
 }
 li a {
     color: black;
-
+    font-size: smaller;
 }
-
+.div-navbar-dossier{
+    width: 97%;
+    height: 45px;
+    border-bottom: gainsboro solid;
+    margin-left: 1%;
+    margin-top: -10px;
+    display: flex;
+}
+.navbar-dossier li {
+    margin-right: 4%;
+}
 iframe{
     width: 97%;
     height: 94%;
     margin-left: 1%;
 }
+.logo-nav-dossier{
+    height: 30px;
+    width: 35px;
+    margin-top: 13px;
+    margin-left: 50%;
+}
+.div-logo-nav{
+    height: 100%;
+    width: 10%;
+}
+/* Menu Gestion Dossier */
+
+.cont-gestion-dossier{
+    display: flex;
+    height: 89%;
+}
+.sommaire{
+    background: #718DDF;
+    margin-left: 4px;
+    height: 100%;
+}
+.cont-gestion-dossier h4 {
+    font-size: medium;
+    text-align: center;
+}
+.sous-titre-dossier{
+    background-color: azure;
+    color: #225cc5;
+    margin-top: -1px;
+    border: azure solid 0px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 101%;
+    margin-bottom: 0%;
+}
+
+.div-sommaire-dossier{
+    width: 80%;
+    margin: auto;
+    border: azure solid 1px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 5%;
+}
+.prgs{
+    color: #225cc5;
+    background-color: #D7DEF8;
+    height: 100px;
+    padding-top: 1%;
+    width: 101%;
+    padding-bottom: 30%;
+}
+.detail{
+    background-color: #D7DEF8;
+    height: 50px;
+    padding-top: 1px;
+    width: 101%;
+}
+.img-ligne{
+    height: 19px;
+    padding-top: 8px;
+}
+.ligne-dossier{
+    display: flex;
+    padding-left: 5%;
+}
+.ligne-dossier p {
+    padding-left: 5%;
+}
+.titre-liste-dossier{
+    border-bottom: #ABC5DD solid 2px;
+    font-size: small;
+    padding-left: 2%;
+}
+.ligne-fichier-dossier{
+    width: 29%;
+    text-align: center;
+    margin-bottom: 15%;
+    cursor: pointer;
+}
+.liste-dossier{
+    width: 55%;
+}
+.icon-list{
+    height: 45px;
+}
+.column-dossier{
+    width: 50%;
+    padding-left: 5%;
+    font-weight: bolder;
+}
+.double-column{
+    display: flex;
+    overflow-y: auto;
+}
+
 
 /* Navbar bleu clair */
 
@@ -330,6 +445,9 @@ button:focus{
 a:hover{
     opacity: 90%;
 }
+/* li a:hover {
+    background: rgb(167, 167, 167);
+} */
 a:focus{
     outline: none !important;
 }

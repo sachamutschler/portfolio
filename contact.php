@@ -41,8 +41,8 @@ if(isset($_POST['button'])) {
     $mail = $_POST['email'];
     $headers = 'FROM: '. $mail;
     mail('contact@sacha-mutschler.com', $objet, $message, $headers);
-    echo'Le mail a été envoyé avec succès.';
-    var_dump($_POST['email']);
+    echo "Le mail a été envoyé avec succès.";
+    
 }
 elseif(isset($_POST['button'])){
     echo'Une erreur est survenue';

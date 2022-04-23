@@ -16,7 +16,9 @@
     <div class="message">
       <img src="error.png" alt="">An error has occurred while trying to display an error message.
     </div>
-    <button class="ok"><span>OK</span></button>
+    <button class="ok" onclick="play()"><span>OK</span></button>
+    <audio id="audio" src="resources/erro.mp3"></audio>
+
   </div>
 
 
@@ -41,6 +43,10 @@
         $('.start-menu-win').toggleClass('active-menu');
       })
     })
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
   </script>
 </body>
 </html>
@@ -57,7 +63,7 @@ html, body {
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background: url("resources/img/windows-xp.JPG") no-repeat center/cover;
+  background: url("resources/img/windows-xp.jpg") no-repeat center/cover;
   overflow: hidden;
 }
 footer#footer {

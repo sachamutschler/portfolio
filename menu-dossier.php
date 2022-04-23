@@ -12,8 +12,8 @@
             </div>
         </div>
         
-            <div class="">
-                <ul class="navbar-dossier nav-under">
+            <div class="div-navbar-dossier">
+                <ul class="navbar-dossier">
                     <li><a href="#">Fichier</a></li>
                     <li><a href="#">Edition</a></li>
                     <li><a href="#">Affichage</a></li>
@@ -21,38 +21,103 @@
                     <li><a href="#">Outils</a></li>
                     <li><a href="#">?</a></li>
                 </ul>
+                <div class="div-logo-nav">
+                    <img src="resources/img/Windows_logo.png" alt="" srcset="" class="logo-nav-dossier">
+                </div>
             </div>
-            <div>
-                <div>
-                   <div>
+            <div class="cont-gestion-dossier">
+                <div class="sommaire">
+                   <div class="div-sommaire-dossier">
                         <h4 class="sous-titre-dossier">Gestion des fichiers</h4>
-                        <p>Créer un nouveau dossier</p>
-                        <p>Publier ce dossier sur le Web</p>
-                        <p>Partager ce dossier</p>
+                        <div class="prgs">
+                            <div class="ligne-dossier">
+                                <img src="resources/img/folder-new.png" class="img-ligne">
+                                <p>Créer un nouveau dossier</p>
+                            </div>
+                            <div class="ligne-dossier">
+                                <img src="resources/img/mywebsite.png" class="img-ligne">
+                                <p>Publier ce dossier sur le Web</p>
+                            </div>
+                            <div class="ligne-dossier">
+                                <img src="resources/img/applications-email-panel.png" class="img-ligne">
+                                <p>Partager ce dossier</p>
+                            </div>
+                        </div>
                    </div>
-                   <div>
+                   <div class="div-sommaire-dossier">
                         <h4 class="sous-titre-dossier">Autres emplacements</h4>
-                        <p>Bureau</p>
-                        <p>Documents partagés</p>
-                        <p>Poste de travail</p>
-                        <p>Favoris réseau</p>
+                        <div class="prgs">
+                            <div class="ligne-dossier">
+                                <img src="resources/img/preferences-desktop-display.png" class="img-ligne">
+                                <p>Bureau</p>
+                            </div>
+                            <div class="ligne-dossier">
+                                <img src="resources/img/shared folder.png" class="img-ligne">
+                                <p>Documents partagés</p>
+
+                            </div>
+                            <div class="ligne-dossier">
+                                <img src="resources/img/mycomp.png" class="img-ligne">
+                                <p>Poste de travail</p>
+
+                            </div>
+                            <div class="ligne-dossier">
+                                <img src="resources/img/mynetwork.png" class="img-ligne">
+                                <p>Favoris réseau</p>
+
+                            </div>
+                        </div>
                    </div> 
-                   <div>
-                       <h4 class="sous-titre-dossier"></h4>
-                       <p>Mes documents</p>
-                       <p>Dossier système</p>
+                   <div class="div-sommaire-dossier">
+                       <h4 class="sous-titre-dossier">Détails</h4>
+                       <div class="detail">
+                            <p>Mes documents</p>
+                            <p>Dossier système</p>
+                       </div>
                    </div>
                 </div>
+                
                 <div class="liste-dossier">
-                    <div>
-                        <img src="resources/img/textdoc.png" alt="txt" class="menu-icon">
-                        <div>
-                            <span class="first">Mon CV</span>
+                    <h5 class="titre-liste-dossier">Fichiers enregistrés sur cet ordinateur</h5>
+                    <div class="double-column">
+                        <div class="column-dossier">
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='cv.php'">
+                                <img src="resources/img/application-pdf.png" alt="txt" class="icon-list">
+                                <span class="first">Mon CV</span>
+                            </div>
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='e4.php'">
+                                <img src="resources/img/photoweb.png" alt="txt" class="icon-list">
+                                <span class="first">Epreuve E4</span>
+                            </div>
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='e5.php'">
+                                <img src="resources/img/preferences-desktop-display.png" alt="txt" class="icon-list">
+                                <span class="first">Epreuve E5</span>
+                            </div>
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='bts.php'">
+                                <img src="resources/img/editor.png" alt="txt" class="icon-list">
+                                <span class="first">BTS SIO</span>
+                            </div>
+                        </div>
+                        <div class="column-dossier" onclick="window.location.href='projets.php'">
+                            <div class="ligne-fichier-dossier">
+                                <img src="resources/img/controlpanel.png" alt="txt" class="icon-list">
+                                <span class="first">Mes projets</span>
+                            </div>
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='contact.php'">
+                                <img src="resources/img/applications-email-panel.png" alt="txt" class="icon-list">
+                                <span class="first">Contact</span>
+                            </div>
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='a-propos.php'">
+                                <img src="resources/img/helpsupport.png" alt="txt" class="icon-list">
+                                <span class="first">A Propos</span>
+                            </div>
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='veille.php'">
+                                <img src="resources/img/myrecent.png" alt="txt" class="icon-list">
+                                <span class="first">Veille Technologique</span>
+                            </div>
                         </div>
                     </div>
-                    <div>
-
-                    </div>
+                    
                 </div>
             </div>
         
