@@ -98,12 +98,12 @@
                                 <span class="first">BTS SIO</span>
                             </div>
                         </div>
-                        <div class="column-dossier" onclick="window.location.href='projets.php'">
-                            <div class="ligne-fichier-dossier">
+                        <div class="column-dossier">
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='projets.php'">
                                 <img src="resources/img/controlpanel.png" alt="txt" class="icon-list">
                                 <span class="first">Mes projets</span>
                             </div>
-                            <div class="ligne-fichier-dossier" onclick="window.location.href='contact.php'">
+                            <div class="ligne-fichier-dossier" onclick="window.location.href='file-contact.php'">
                                 <img src="resources/img/applications-email-panel.png" alt="txt" class="icon-list">
                                 <span class="first">Contact</span>
                             </div>

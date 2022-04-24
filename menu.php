@@ -55,10 +55,10 @@
                                         <span class="first">Norton Commander</span>
                                     </div>
                                 </li>
-                                <li>
-                                    <img class="menu-icon" src="resources/img/winamp.png">
+                                <li onclick="window.location.href='bts.php'">
+                                    <img class="menu-icon" src="resources/img/editor.png">
                                     <div>
-                                        <span class="first">Winamp</span>
+                                        <span class="first">BTS SIO</span>
                                     </div>
                                 </li>
                                 <li class="all-programs-wrapper">
@@ -148,22 +148,22 @@
                                         <span class="first">My Music</span>
                                     </div>
                                 </li>
-                                <li>
-                                    <img class="menu-icon" src="resources/img/my_computer.png">
+                                <li onclick="window.location.href='e5.php'">
+                                    <img class="menu-icon" src="resources/img/preferences-desktop-display.png">
                                     <div>
-                                        <span class="first">My Computer</span>
+                                        <span class="first">Epreuve E5</span>
                                     </div>
                                 </li>
-                                <li onclick="window.location.href='bts.php'">
-                                    <img class="menu-icon" src="resources/img/my_network_places.png">
+                                <li onclick="window.location.href='e4.php'">
+                                    <img class="menu-icon" src="resources/img/photoweb.png">
                                     <div>
-                                        <span class="first">BTS SIO</span>
+                                        <span class="first">Epreuve E4</span>
                                     </div>
                                 </li>
                             </ul>
                             <ul class="applications-devider apps">
                                 <li onclick="window.location.href='cv.php'">
-                                    <img class="menu-icon" src="resources/img/controlpanel.png">
+                                    <img class="menu-icon" src="resources/img/application-pdf.png">
                                     <div>
                                         <span class="first">Mon CV</span>
                                     </div>

@@ -3,8 +3,8 @@
 <?php include('head.php'); ?>
 <body>
         <div id="dossier_link">
-            <a href="dossier.php"><img src="resources/img/dossier.png" alt="image" class="dossier" onclick="window.location.href='dossier.php'"><!-- image par freepik --></a>
-            <a href="dossier.php"><h1 id="titre" class="titre" onclick="window.location.href='dossier.php' ">Portfolio <br>Sacha Mutschler</h1></a>
+            <a href="menu-dossier.php"><img src="resources/img/dossier.png" alt="image" class="dossier" onclick="window.location.href='menu-dossier.php'"><!-- image par freepik --></a>
+            <a href="menu-dossier.php"><h1 id="titre" class="titre" onclick="window.location.href='menu-dossier.php'">Portfolio <br>Sacha Mutschler</h1></a>
         </div>
     
     <div id="navbar">
