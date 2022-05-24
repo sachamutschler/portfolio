@@ -71,4 +71,7 @@ Le site www.sacha-mutschler.com est en conformité avec le RGPD voir notre polit
         background: none;
     }
 
+    html{
+        overflow:auto;
+    }
 </style>

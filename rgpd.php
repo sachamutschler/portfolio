@@ -4,9 +4,12 @@
 <body>
 
     <h1>RGPD et Mentions légales :</h1>
-    <?php include('mention.php'); ?><br>
+     
+    <?php include('mention.php'); ?>
+
     <div class="pdf">
-        <embed src="/resources/img/RGPD.pdf" width=1000 height=800 type='application/pdf'/>
+        <embed src="resources/img/RGPD.pdf" width=1000 height=800 type='application/pdf'/>
     </div>
 </body>
+
 </html>
