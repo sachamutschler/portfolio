@@ -87,13 +87,23 @@
                 </div>
                 
                 <div class="liste-dossier">
-                    <h5 class="titre-liste-dossier">Page en cours de création : </h5>
+                    <h5 class="titre-liste-dossier">Voici mes différents projets  : </h5>
                     <div class="double-column">
                         <div class="column-dossier">
-                            
+                            <a href="https://dendo.sacha-mutschler.com">
+                                <div class="ligne-fichier-dossier">
+                                    <img src="resources/img/Dendo_Jitensha_(2).png" alt="txt" class="icon-list">
+                                    <span class="first">Dendo Jitensha</span>
+                                </div>
+                            </a>
                         </div>
                         <div class="column-dossier">
-                            
+                            <a href="https://extranet.sacha-mutschler.com">
+                                <div class="ligne-fichier-dossier">
+                                    <img src="resources/img/my_computer.png" alt="txt" class="icon-list">
+                                    <span class="first">Extranet</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     
