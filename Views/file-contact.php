@@ -5,15 +5,16 @@
     <div class="fichier window" id="fichier">
         <div class="navbar_dossier">
             <div class="title-bar">
-                <div class="title-bar-text">Tetris</div>
+                <div class="title-bar-text">Contact</div>
                     <div class="title-bar-controls">
                     <button aria-label="Maximize" onclick="maximize()"></button>
                     <button aria-label="Close" onclick="window.location.href='index-copy.php'"></button>
                 </div>
             </div>
         </div>
-        
-        <iframe src="https://www.webmaster-gratuit.com/jeu/html5/tetris/index.html" frameborder="100"></iframe>
+        <?php
+            require('contact.php');
+        ?>
     </div> 
     
     <div id="navbar">
@@ -21,20 +22,21 @@
             require('menu.php');
         ?>
         <button class="logo-vert button-start-menu">
-            <img src="resources/img/Windows_logo.png" alt="" class="logo-windows">
+            <img src="../resources/img/Windows_logo.png" alt="" class="logo-windows">
                 start
         </button>
         <div class="blur-right-bar">
                 <ul class="blur-right-bar-applications">
-                    <li onclick="window.location.href='error.php'"><img src="resources/img/msn.png" alt="internet explorer icon"></li>
-                    <li><img src="resources/img/my_computer.png" alt="internet explorer icon"></li>
-                    <li><img src="resources/img/my_network_places.png" alt="internet explorer icon"></li>
+                    <li onclick="window.location.href='error.php'"><img src="../resources/img/msn.png" alt="internet explorer icon"></li>
+                    <li><img src="../resources/img/my_computer.png" alt="internet explorer icon"></li>
+                    <li><img src="../resources/img/my_network_places.png" alt="internet explorer icon"></li>
                 </ul>
                 <span class="time">
                     14:34
                 </span>
             </div>
     </div>
-    <script src="resources/js/main.js"></script>
+    <script src="../resources/js/main.js"></script>
 </body>
 </html>
+

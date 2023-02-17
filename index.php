@@ -17,8 +17,8 @@
         </div>
     </div>
         <div id="dossier_link">
-            <a href="menu-dossier.php"><img src="resources/img/dossier.png" alt="image" class="dossier" onclick="window.location.href='menu-dossier.php'"><!-- image par freepik --></a>
-            <a href="menu-dossier.php"><h1 id="titre" class="titre" onclick="window.location.href='menu-dossier.php' ">Portfolio <br>Sacha Mutschler</h1></a>
+            <a href="Views/menu-dossier.php"><img src="resources/img/dossier.png" alt="image" class="dossier" onclick="window.location.href='menu-dossier.php'"><!-- image par freepik --></a>
+            <a href="Views/menu-dossier.php"><h1 id="titre" class="titre" onclick="window.location.href='menu-dossier.php' ">Portfolio <br>Sacha Mutschler</h1></a>
         </div>
     
     <div id="navbar">

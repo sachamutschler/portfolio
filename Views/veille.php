@@ -23,16 +23,16 @@
                     <li><a href="#">?</a></li>
                 </ul>
                 <div class="div-logo-nav">
-                    <img src="resources/img/Windows_logo.png" alt="" srcset="" class="logo-nav-dossier">
+                    <img src="../resources/img/Windows_logo.png" alt="" srcset="" class="logo-nav-dossier">
                 </div>
             </div>
             <div class="div2-navbar-dossier">
                 <div class="div-retour" onclick="window.location.href='menu-dossier.php'">
-                    <img src="resources/img/redo.png" class="">
+                    <img src="../resources/img/redo.png" class="">
                     <p>Précédente</p>
                 </div>
-                <img src="resources/img/search.png" class="retour">
-                <img src="resources/img/shared folder.png" class="retour">
+                <img src="../resources/img/search.png" class="retour">
+                <img src="../resources/img/shared%20folder.png" class="retour">
             </div>
             
                 
@@ -44,9 +44,9 @@
                             <p>Je réalise ma veille sur l'évolution du développement de jeux vidéo en lisant des "thread" Twitter mais également la documentation des entreprises comme : Unity et Unreal Engine.</p>
                             <p>Je note ensuite les liens qui m'intéressent dans une page One Note dédiée.</p>
                             <p>J'ai résumé mes recherches dans le document pdf visionnable ci dessous :</p>
-                            <a href="resources/E4/veille_technologique.pdf" class="doc-veille">
+                            <a href="../resources/E4/veille_technologique.pdf" class="doc-veille">
                                 <div class="ligne-fichier-dossier">
-                                    <img src="resources/img/application-pdf.png" alt="txt" class="icon-list">
+                                    <img src="../resources/img/application-pdf.png" alt="txt" class="icon-list">
                                     <span class="first">Veille Technologique</span>
                                 </div>
                             </a>
@@ -65,20 +65,20 @@
             require('menu.php');
         ?>
         <button class="logo-vert button-start-menu">
-            <img src="resources/img/Windows_logo.png" alt="" class="logo-windows">
+            <img src="../resources/img/Windows_logo.png" alt="" class="logo-windows">
                 start
         </button>
         <div class="blur-right-bar">
                 <ul class="blur-right-bar-applications">
-                    <li onclick="window.location.href='error.php'"><img src="resources/img/msn.png" alt="internet explorer icon"></li>
-                    <li><img src="resources/img/my_computer.png" alt="internet explorer icon"></li>
-                    <li><img src="resources/img/my_network_places.png" alt="internet explorer icon"></li>
+                    <li onclick="window.location.href='error.php'"><img src="../resources/img/msn.png" alt="internet explorer icon"></li>
+                    <li><img src="../resources/img/my_computer.png" alt="internet explorer icon"></li>
+                    <li><img src="../resources/img/my_network_places.png" alt="internet explorer icon"></li>
                 </ul>
                 <span class="time">
                     14:34
                 </span>
             </div>
     </div>
-    <script src="resources/js/main.js"></script>
+    <script src="../resources/js/main.js"></script>
 </body>
 </html>

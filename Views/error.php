@@ -17,7 +17,7 @@
       <img src="error.png" alt="">An error has occurred while trying to display an error message.
     </div>
     <button class="ok" onclick="play()"><span>OK</span></button>
-    <audio id="audio" src="resources/erro.mp3"></audio>
+    <audio id="audio" src="../resources/erro.mp3"></audio>
 
   </div>
 
@@ -63,7 +63,7 @@ html, body {
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background: url("resources/img/windows-xp.jpg") no-repeat center/cover;
+  background: url("../resources/img/windows-xp.jpg") no-repeat center/cover;
   overflow: hidden;
 }
 footer#footer {
