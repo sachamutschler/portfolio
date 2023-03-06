@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Sacha Mutschler</title>
-    <link rel="stylesheet" href="resources/css/style.css">
-</head>
+<?php include('head.php'); ?>
 <body>
-    <div class="fichier" id="fichier">
-        
-    </div>
-    <div class="conteneur-menu">
-        <nav id="menu" class="menu">
-            <ul class="sous-menu">
-                <li class="ligne">Sacha Mutschler</li>
-                <li class="ligne">Compétences</li>
-                <li class="ligne">projets</li>
-                <li class="ligne">Contact</li>
-            </ul>
-        </nav>
-    </div>
+    <div class="fichier window" id="fichier">
+        <div class="navbar_dossier">
+            <div class="title-bar">
+                <div class="title-bar-text">Portfolio Sacha Mutschler</div>
+                    <div class="title-bar-controls">
+                    <button aria-label="Close" onclick="window.location.href='index-copy.php'"></button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="window-body">
+            <div class="">
+                <ul class="navbar-dossier">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div> -->
+        <iframe src="https://bts.sacha-mutschler.com/" frameborder="100"></iframe>
+    </div> 
+    
     <div id="navbar">
-        <img src="resources/img/logoxp.jpg" alt="logo windows noir" srcset="" class="logo_windows">
+        <?php 
+            require('menu.php');
+        ?>
+        <button class="logo-vert button-start-menu">
+            <img src="resources/img/Windows_logo.png" alt="" class="logo-windows">
+                start
+        </button>
+        <div class="blur-right-bar">
+                <ul class="blur-right-bar-applications">
+                    <li onclick="window.location.href='error.php'"><img src="resources/img/msn.png" alt="internet explorer icon"></li>
+                    <li><img src="resources/img/my_computer.png" alt="internet explorer icon"></li>
+                    <li><img src="resources/img/my_network_places.png" alt="internet explorer icon"></li>
+                </ul>
+                <span class="time">
+                    14:34
+                </span>
+            </div>
     </div>
+    <script src="resources/js/main.js"></script>
 </body>
 </html>

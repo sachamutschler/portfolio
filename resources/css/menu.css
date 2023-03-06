@@ -1,0 +1,242 @@
+
+
+.start-menu {
+    position: absolute;
+    left: 0;
+    top: -502px;
+    border: 1px solid;
+    width: 384px;
+    height: 479px;
+    display: none;
+}
+
+.start-menu-header {
+    height: 66px;
+    background-image: linear-gradient(180deg, #225cc5 0%, #66a0e4 4%, #1767cd 9%, #3482e3 94%, #225cc5 98%);
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.start-menu-header .user-pic img {
+    display: block;
+    width: 48px;
+    margin-right: 10px;
+}
+
+.start-menu-header .user-name {
+    color: white;
+    font-weight: 600;
+}
+
+.start-menu-applications {
+    width: 100%;
+    background: white;
+    display: flex;
+}
+
+
+.start-menu-applications-box {
+    width: 50%;
+    height: 100%;
+    padding: 7px;
+}
+
+.menu-applications-left {
+    background: white;
+    border-right: 1px solid #a1c4ef;
+}
+
+.menu-applications-right {
+    background: #d3e5fa;
+}
+
+.start-menu-bottom-bar {
+    background-image: linear-gradient(180deg, #225cc5 0%, #3a8aec 6%, #225cc5 90%);
+    height: 45px;
+    padding: 7px;
+}
+
+.start-menu-bottom-bar .pc-power {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.start-menu-bottom-bar .pc-power li {
+    display: block;
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.start-menu-bottom-bar .pc-power li img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.start-menu-applications-box .apps {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.start-menu-applications-box .apps li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-top: 7px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.start-menu-applications-box .apps li:hover,
+.start-menu-applications-box .apps li:hover .second {
+    background: #316AC5;
+    color: white !important;
+}
+
+.start-menu-applications-box .apps li:hover a {
+    color: white;
+}
+
+.menu-applications-right .apps li {
+    font-size: 13px;
+}
+
+.start-menu-applications-box .apps li .first,
+.start-menu-applications-box .apps li .second {
+    display: block;
+}
+
+.start-menu-applications-box .apps li .second {
+    color: grey;
+}
+
+.start-menu-applications-box .apps .menu-icon {
+    width: 27px;
+    margin-right: 10px;
+}
+
+.start-menu-applications-box .applications-devider::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 1px;
+    background: #cacaca;
+    margin: auto;
+    margin-top: 11px;
+
+}
+
+.all-programs-wrapper {
+    padding: 6.5px !important;
+    padding-left: 37px !important;
+    position: relative;
+}
+
+.all-programs-wrapper a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.all-programs-wrapper .all-programs-box {
+    position: absolute;
+    width: 182px;
+    height: 290px;
+    left: 162px;
+    background: white;
+    top: -261px;
+    display: none;
+    border: 1px solid #55a1ff;
+    border-left: 5px solid #2d7ce2;
+
+}
+
+.all-programs-box ul {
+    padding: 0;
+    margin: 0;
+}
+
+.all-programs-box ul li {
+    list-style-type: none;
+    color: black;
+    margin: 0 !important;
+    padding: 3px !important;
+}
+
+.all-programs-box ul li img {
+    width: 22px;
+}
+
+.all-programs-box .w-update::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 1px;
+    background: #cacaca;
+    margin: auto;
+    margin-top: 11px;
+
+}
+
+.all-programs-wrapper:hover .all-programs-box {
+    display: block !important;
+}
+
+.my-documents-wrapper {
+    position: relative;
+}
+
+.my-documents-wrapper .my-documents-box {
+    width: 187px;
+    height: 98px;
+    background: white;
+    border: 1px solid #55a1ff;
+    border-left: 5px solid #2d7ce2;
+    position: absolute;
+    top: 0px;
+    left: 176px;
+    display: none;
+}
+
+.my-documents-wrapper:hover .my-documents-box {
+    display: block !important;
+}
+
+.my-documents-box ul {
+    list-style-type: none;
+    color: black;
+    margin: 0 !important;
+    padding: 0px !important;
+}
+
+.my-documents-box ul li {
+    list-style-type: none;
+    color: black;
+    margin: 0 !important;
+    padding: 3px !important;
+}
+
+.my-documents-box ul li img {
+    width: 17px;
+}
+
+
+
+
+.active {
+    display: block !important;
+}
