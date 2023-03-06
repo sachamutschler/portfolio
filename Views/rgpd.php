@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include('head.php'); ?>
+<?php include('Templates/head.php'); ?>
 <body>
 
     <h1>RGPD et Mentions légales :</h1>

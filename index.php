@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
-<?php include('head.php'); ?>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Sacha Mutschler</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <link rel="stylesheet" href="resources/css/menu.css">
+    <link rel="stylesheet" href="resources/css/contact.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
 <body>
     <div class="loader-wrapp">
         <div class="loader-container">
@@ -16,41 +28,15 @@
             </div>
         </div>
     </div>
-        <div id="dossier_link">
-            <a href="Views/menu-dossier.php"><img src="resources/img/dossier.png" alt="image" class="dossier" onclick="window.location.href='menu-dossier.php'"><!-- image par freepik --></a>
-            <a href="Views/menu-dossier.php"><h1 id="titre" class="titre" onclick="window.location.href='menu-dossier.php' ">Portfolio <br>Sacha Mutschler</h1></a>
-        </div>
-    
-    <div id="navbar">
-        <?php 
-            require('menu.php');
-        ?>
-        <!-- <button class="button-start-menu logo-vert" id="logo-vert">
-        
-            <img src="resources/img/xp-logo.PNG" alt="" class="logo_windows">
-            <p class="start">Démarrer</p>
-           démarrer
-        </button> -->
-        <button class="logo-vert button-start-menu">
-                <img src="resources/img/Windows_logo.png" alt="" class="logo-windows">
-                start
-            </button>
-        <div class="blur-right-bar">
-                <ul class="blur-right-bar-applications">
-                    <li onclick="window.location.href='error.php'"><img src="resources/img/msn.png" alt="internet explorer icon"></li>
-                    <li><img src="resources/img/my_computer.png" alt="internet explorer icon"></li>
-                    <li><img src="resources/img/my_network_places.png" alt="internet explorer icon"></li>
-                </ul>
-                <span class="time">
-                    14:34
-                </span>
-            </div>
+    <div id="dossier_link">
+        <a href="Views/menu-dossier.php"><img src="resources/img/dossier.png" alt="image" class="dossier" onclick="window.location.href='menu-dossier.php'"><!-- image par freepik --></a>
+        <a href="Views/menu-dossier.php"><h1 id="titre" class="titre" onclick="window.location.href='menu-dossier.php' ">Portfolio <br>Sacha Mutschler</h1></a>
     </div>
+    <?php require ('Views/Templates/bottom-bar.php') ?>
     <script src="resources/js/main.js"></script>
     <script src="resources/js/navbar.js"> </script>
     <script>
         const loader = document.querySelector(".loader-wrapp");
-
         function hideLoader() {
         loader.style.display = "none"
     }

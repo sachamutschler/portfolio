@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <title>Error</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
@@ -14,14 +14,11 @@
       <button class="close-button">X</button>
     </div>
     <div class="message">
-      <img src="error.png" alt="">An error has occurred while trying to display an error message.
+      <img src="../resources/error.png" alt="">An error has occurred while trying to display an error message.
     </div>
     <button class="ok" onclick="play()"><span>OK</span></button>
     <audio id="audio" src="../resources/erro.mp3"></audio>
-
   </div>
-
-
   <script>
     $(".error").draggable();
 
